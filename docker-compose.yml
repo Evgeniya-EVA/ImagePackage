@@ -2,6 +2,6 @@ version: '3.7'
 services:
   openjdk:
     build: .
-    image: openjdk:1.2
+    image: openjdk:1.5
     ports:
       - '9999:9999'
